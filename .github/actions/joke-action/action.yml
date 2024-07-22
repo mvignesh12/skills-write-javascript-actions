@@ -2,6 +2,9 @@ name: "my joke action"
 
 description: "demo action"
 
+outputs:
+  joke-output:
+    description: demo output
 runs:
   using: "node16"
   main: "main.js"
